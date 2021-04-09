@@ -1,0 +1,561 @@
+@media screen and (max-width: 1070px) {
+
+
+  .header-wrapper {
+    width: 95%;
+  }
+
+  .section-info-wrapper {
+    width: 95%;
+    padding-top: 150px;
+  }
+
+  .section-practic-wrapper {
+    width: 95%;  
+    padding-top: 100px;
+  }
+
+  .section-media-wrapper {
+    width: 95%;
+  }
+
+  .section-contact-us-wrapper {
+    width: 95%;
+  }
+
+  .footer-wrapper {
+    width: 95%;
+  }
+
+  .footer-conteiner-wrapper {
+    width: 95%;
+  }
+
+}
+
+
+
+@media screen and (max-width: 1050px) {
+
+
+  .nav-wrapper {
+    justify-content: space-between;
+  }
+
+
+
+  .btn-mobile-wrapper {
+    display: flex;
+  }
+    
+  .button-mobile{
+    padding: 7px 4px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    margin-left: 30px;
+  }
+
+  .search-btn {
+    margin-left: 30px;
+  }
+
+  .basket-btn {
+    margin-left: 30px;
+  }
+
+  .nav-list-dekstop {
+    display: none;
+  }
+
+  .nav-list-mobile .nav-open{
+    display: flex;
+    flex-direction: column;
+    height: 0;
+  }
+
+  .burger {
+    width: 18px;
+    height: 2px;
+    background: #737373;
+    display: flex;
+    position: relative;
+  }
+  
+  .burger::before {
+    width: 22px;
+    height: 2px;
+    background: #737373;
+    display: flex;
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+  }
+    
+  .burger::after {
+    width: 14px;
+    height: 2px;
+    background: #737373;
+    display: flex;
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+  }
+
+
+
+
+
+
+  .baner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+
+  .baner-content-title {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #252B42;
+    line-height: 57px;
+    padding-bottom: 40px;
+  }
+
+  .baner-content-text {
+    max-width: 280px;
+    text-align: center;
+  }
+
+  .baner-content-link {
+    margin-bottom: 25px;
+  }
+    
+
+  .baner-item {
+    margin: 15px 0;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .baner-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .baner-item:first-child {
+    margin-top: 0;
+  }
+
+  .baner-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .clients-wrapper {
+    width: 95%;
+  }
+   
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+  
+
+
+  .info-items {
+  
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center; 
+  }
+
+  .info-item {
+    margin: 15px;
+    width: 25%;
+  }
+
+
+  .practic-items {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .practic-item {
+    margin: 15px 15px;
+    width: calc(100% - 15px);
+  }
+
+
+  .media-items {
+      flex-direction: column;
+  }
+
+  .media-wrapper-item {
+    display: flex;
+    width: 100%;
+    margin-bottom: 70px;
+    justify-content: center;
+  }
+
+  .section-media-wrapper {
+    width: 80%;
+  }
+
+  .media-item {
+    flex-direction: row;
+  }
+
+
+  .clients-wrapper{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+  }
+
+  .clients-icon {
+    flex-wrap: wrap;
+      
+  }
+  .clients-icon img {
+    margin: 20px 20px;
+  }
+
+    
+  .subscribe-title {
+    margin-right: 20px;
+  }
+
+
+
+  .contact-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-item {
+    margin: 15px 0;
+  }
+
+   
+  .link-mail-wrapper {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-contact-us-wrapper {
+    width: 80%;
+  }
+
+  .footer-wrapper {
+    width: 100%;
+  }
+
+  .footer-nav-wrapper {
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .footer-nav {
+      margin: 20px 5px;
+  }
+
+  .footer-conteiner-wrapper {
+    width: 80%;
+  }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  .subscribe-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .clients-subscribe-form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .clients-subscribe-wrapper {
+    background: none;
+    padding: 0;
+  }
+
+  .section-contact-wrapper {
+    max-width: 333px;
+  }
+
+
+  .section-contact-us-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+  }
+
+  .contact-us-btb {
+    margin: 0;
+  }
+
+  .cotact-us-content {
+    margin-bottom: 50px;
+  }
+
+
+  .footer-nav-wrapper {
+    width: 65%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .footer-nav {
+    margin: 20px 20px;
+
+  }
+
+
+  .footer-conteiner-wrapper {
+    flex-direction: column;
+    width: 60%;
+    align-items: flex-start;
+  }
+
+  .footer-conteiner-wrapper p {
+    margin-bottom: 50px;
+  }
+
+  .footer-conteiner {
+    padding-bottom: 30px;
+  }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 415px) {
+
+
+  .header-wrapper {
+    width: 100%;
+  }
+
+  .header {
+    background: url(../img/header-bg-mobile.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 150px;
+  }
+    
+  .nav-logo {
+    margin-right: 0;
+  }
+    
+  .nav-header {
+    background: #fff;
+  }
+    
+  .nav-wrapper {
+    justify-content: space-between;
+    padding: 36px;
+  }
+    
+  .baner-wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+    
+  .baner-content {
+    max-width: 335px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 55px;
+    padding-top: 80px;
+  }
+    
+  .baner-content-title {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #252B42;
+    line-height: 57px;
+    padding-bottom: 40px;
+  }
+    
+  .baner-content-text {
+    max-width: 280px;
+    text-align: center;
+  }
+
+  .baner-content-link {
+    margin-bottom: 25px;
+  }
+
+  .baner-content-link:active {
+    background: #FFA62B;
+    border: 1px solid #FFA62B;
+    color: #fff;
+  }
+
+  .baner-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+    
+  .baner-item {
+    margin: 15px 0;
+    width: 80%;
+  }
+    
+    
+
+
+    
+  .section-info-wrapper {
+    padding-top: 100px;
+  }
+
+  .section-info-content {
+    display: flex;
+    text-align: center;
+    max-width: 250px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+  }
+
+  .info-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-item-row {
+    flex-direction: column;
+    margin: 0;
+  }
+    
+  .info-item {
+    margin: 15px 0;
+  }
+
+
+
+
+  .section-practic-wrapper {
+    max-width: 230px;
+  }
+
+  .section-practic-content {
+    display: flex;
+    text-align: center;
+    margin-bottom: 75px;
+  }
+
+  .practic-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  .practic-item {
+    margin: 15px 0;
+    width: 100%;
+  }
+
+
+
+
+  .section-media-wrapper {
+    width: 80%;
+  }
+
+  .section-media-content {
+    display: flex;
+    text-align: center;
+    margin-bottom: 75px;
+  }
+
+  .media-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .media-item {
+    margin: 15px 0;
+  }
+    
+  .media-wrapper-item {
+    display: flex;
+    width: 100%;
+    margin-bottom: 70px;
+  }
+
+
+
+
+  .clients-icon img {
+    margin: 30px 0;
+  }
+
+  .clients-icon {
+    display: flex;
+    flex-direction: column;
+  }
+     
+    
+    
+    
+     
+    
+    
+    
+  .contact-items {
+    flex-direction: column;
+  }
+
+  .section-contact-wrapper {
+    max-width: 333px;
+  }
+    
+    
+
+    
+  .footer-nav-wrapper {
+    flex-direction: column;
+  }
+    
+  .footer-nav {
+    width: 100%;
+  }
+
+}
